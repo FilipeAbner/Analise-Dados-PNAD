@@ -1,0 +1,20 @@
+/* Garante que a legenda de séries está oculta */
+#activity-region-chart .apexcharts-legend {
+    display: none !important;
+  }
+  
+  /* Reposiciona a legenda de cores (aquela do heatmap) */
+  #activity-region-chart .apexcharts-heatmap-legend {
+    display: flex !important;
+    justify-content: center;
+    position: relative !important;
+    margin-top: 8px; /* distância do gráfico */
+  }
+  
+  /* Ajuste de estilo dos labels de cor, se desejar */
+  #activity-region-chart .apexcharts-heatmap-legend span {
+    color: #333;
+    font-size: 12px;
+    margin: 0 4px;
+  }
+  
