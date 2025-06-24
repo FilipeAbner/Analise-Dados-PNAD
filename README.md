@@ -109,7 +109,7 @@ O processo de ETL começa no arquivo etl.py, que é o arquivo principal do proje
 
 ### 🎬 Demonstração em Vídeo
 
-**Link para demonstração completa:** https://youtu.be/_xLaru0XOsI
+**Link para demonstração completa do dashboard:** https://youtu.be/_xLaru0XOsI
 
 > **[ESPAÇO RESERVADO PARA GIFS DOS GRÁFICOS EM AÇÃO]**
 > 
