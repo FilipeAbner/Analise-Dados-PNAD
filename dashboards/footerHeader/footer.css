@@ -1,0 +1,55 @@
+
+
+.footer {
+    background-color: #F8F9FA; /* Cor de fundo do footer */
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0px solid #E0E0E0; /* Borda superior */
+}
+
+.footer .d-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer .icon2 {
+    width: 130px; /* Ajuste o tamanho do ícone */
+    height: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.footer .icon1 {
+    width: 130px; /* Ajuste o tamanho do ícone */
+    height: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.footer .summary {
+    text-align: left; /* Garantir que o texto esteja alinhado à esquerda */
+    font-size: 16px;
+    color: #666;
+}
+
+.footer .info {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 1px;
+    max-width: 500px;
+}
+
+.footer .contact-link {
+    font-size: 16px;
+    color: #3498db; /* Azul */
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline; /* Não forçar o link a ser um bloco */
+}
+
+.footer .contact-link:hover {
+    text-decoration: underline;
+}
