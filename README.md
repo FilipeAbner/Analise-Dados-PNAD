@@ -25,7 +25,7 @@ Este projeto demonstra a implementação de um **pipeline ETL completo** para pr
 - **Gráficos Interativos**: Visualizações HTML/CSS/JavaScript customizadas
 - **Análises Multidimensionais**: Insights sobre trabalho, educação e demografia
 
-> **Nota**: Devido às limitações da ferramenta Knowage BI para exportação de cockpits, todos os gráficos foram implementados como custom charts(HTML, CSS, JavaScript) e estão disponíveis em .
+> **Nota**: Devido às limitações da ferramenta Knowage BI para exportação de cockpits, todos os gráficos foram implementados como custom charts(HTML, CSS, JavaScript) e estão disponíveis em [Dashboard](dashboard/).
 
 ## 🏗️ Arquitetura do Sistema
 
@@ -48,9 +48,12 @@ projeto/
 │   ├── connection.py          # Configuração de conexão
 │   └── dimensional_models.py  # Modelos dimensionais SQLAlchemy
 ├── data/                     # Dados processados
-├── dashboards/              # Código dos gráficos interativos
-│   ├── grafico1.html
-│   ├── grafico2.html
+├── dashboard/              # Código dos gráficos interativos
+│   ├── graficoLinhas/
+│   │   ├── GL_css.css
+│   │   └── GL_html.html
+│   │   └── GL_javascript.js
+│   ├── slices/
 │   └── ...
 ├── README.md
 ├── Dicionario_dados.md     # dicionario das variaveis e as descrições das variaveis
@@ -78,13 +81,13 @@ O processo de ETL começa no arquivo etl.py, que é o arquivo principal do proje
 - ✅ Mapeamento inteligente de dicionários
 - ✅ Tratamento de erros robusto(Normalização de texto, remoção de acentos, uppercase,etc)
 
-## 📊 Dashboards e Visualizações
+## 📊 Gráficos e Visualizações
 
-### 🎨 Gráficos Implementados
+### 🎨 Dashboard Implementado
+![Dash1](images/dashboard1.png)
+![Dash2](images/dashboard2.png)
+![Dash3](images/dashboard3.png)
 
-> **[ESPAÇO RESERVADO PARA IMAGENS DOS GRÁFICOS]**
-> 
-> *Aqui serão inseridas capturas de tela dos dashboards interativos*
 
 ### 📈 Análises Disponíveis
 
