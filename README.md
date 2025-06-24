@@ -117,9 +117,7 @@ O processo de ETL começa no arquivo etl.py, que é o arquivo principal do proje
 
 **Link para demonstração completa do dashboard:** https://youtu.be/_xLaru0XOsI
 
-> **[ESPAÇO RESERVADO PARA GIFS DOS GRÁFICOS EM AÇÃO]**
-> 
-> *Aqui serão inseridos GIFs mostrando a interatividade dos dashboards*
+![Dash1](images/dashgif1.gif)
 
 ## 🛠️ Tecnologias Utilizadas
 
