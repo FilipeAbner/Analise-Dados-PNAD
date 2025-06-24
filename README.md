@@ -47,7 +47,9 @@ projeto/
 │   │   └── orm_utils.py       # Utilitários ORM
 │   ├── connection.py          # Configuração de conexão
 │   └── dimensional_models.py  # Modelos dimensionais SQLAlchemy
-├── data/                     # Dados processados
+├── data/                     # Dados que seão processados e dump
+│   └── dump/
+│       └── dump.backup       # dados processados
 ├── dashboard/              # Código dos gráficos interativos
 │   ├── graficoLinhas/
 │   │   ├── GL_css.css
@@ -57,7 +59,8 @@ projeto/
 │   └── ...
 ├── README.md
 ├── Dicionario_dados.md     # dicionario das variaveis e as descrições das variaveis
-└── ERD.png                 # diagrama de entidade relacionamento
+├── ERD.png                 # diagrama de entidade relacionamento
+└── requirements.txt        # Dependências do projeto
 ```
 
 ## 📊 Modelagem Dimensional
